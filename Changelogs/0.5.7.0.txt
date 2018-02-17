@@ -1,0 +1,7 @@
+0.5.7.0
+  + added: (Feeds) Number of new entries in feeds are shown after checking
+  + added: (Feeds) Already seen feeds are now marked as watched
+  + added: (Feeds) All entries of a Feed can now added directly as a favourite folder via context menu
+  . added: (Playlist) Pressing shift or control while double clicking on an entry will play the entry in a new player (requires full license)
+  . enhanced: (OnlineCheckerWidget) Automatic detected stream names are now include special characters       
+  . fixed: (TaskbarPreviewWindow) Scrolling is now correctly working if widgets settings opened or a widget was added
