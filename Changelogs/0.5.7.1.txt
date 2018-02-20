@@ -1,0 +1,9 @@
+0.5.7.1
+  . added: (MainWindow) new support menu item added under Info which will open StreamBuffRes Issue tracker in the default browser
+  . enhanced: (OnlineCheckerWidget) Automatic stream name detection now works for some streams, even if they are offline
+  . enhanced: (Feeds) New feed entries are now marked as such
+  . fixed: (OnlineCheckerWidget) Removed graphical artifact occured when it was the widget on top
+  . fixed: (TaskbarPreviewWindow) Scrolling now works correctly under windows 10 if widgets are edited
+  . fixed: (TimeTableWidget) Removed graphical artifact occured when it was the widget on top
+  . fixed: (Feeds) Watched status will no longer be lost after refreshing a feed
+  . fixed: (Feeds) Youtube feeds using youtube-dl will now provide complete youtube urls instead of just video ids
