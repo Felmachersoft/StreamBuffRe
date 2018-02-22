@@ -1,0 +1,6 @@
+0.5.8.0  
+  + added: (Favourites) Favourites and Folders are now marked as watched after playing them (rightclick on entry to set unseen)     
+  . enhanced: (TaskbarPreviewWindow) Scrolling is now possible with the up and down arrow keys, pressing esc will close it
+  . enhanced: (TaskbarPreviewWindow) While editing widgets the TaskbarPreviewWindow will autoscroll if a widget is tracked to top or bottom
+  . fixed: (OnlineCheckerWidget) refreshes now correctly after changing settings
+  . fixed: (OnlineCheckerWidget) refreshing could keep failing after entering an invalid url once
