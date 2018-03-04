@@ -1,0 +1,8 @@
+0.5.8.1            
+  . enhanced: (LicenseManagment) User gets informed if his full license is going to expire soon or has already been expired
+  . fixed: (HTTP_RemoteControll) Prevent unnecessary exception message on shutdown
+  . fixed: (TaskbarPreviewWindow) Prevent exception if window is loading too slow
+  . fixed: (TaskbarPreviewWindow) Prevent error if widgets are edited and the taskbarpreviews backcolor is already black (can happen with certain windows themes)
+  . fixed: (HTTPprovider) Refusing HTTP1.0 requests to provide better compatibilty
+  . fixed: (PlayerPlugins) Prevent error occuring when player profiles for no longer existing PlayerPlugins exist (the player profiles will be removed)
+  . changed: (Updater) Raised timeout for extraction of updates from 5 to 15 seconds
