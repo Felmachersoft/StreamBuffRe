@@ -1,0 +1,9 @@
+0.5.9.0  
+  + added: (MPC Player) Added compatibility for MPC-HC Player 
+  ! BEWARE: VLC versions prior to 3 are no longer supported, please update VLC if you are still using a version prior to 3
+  . enhanced: (HTTPProvider) enhanced compatibility for players
+  . changed: (Feeds) New Feedentries are no longer counted as new when marked as watched       
+  . fixed: (TaskbarPreviewWindow) removing widgets will no longer unnecessary change the window size
+  . fixed: (TaskbarPreviewWindow) free version will now only show first widget if multiple are saved via full version
+  . fixed: (Feeds) Feeds from youtube playlists now have the correct order
+  . fixed: (Feeds) using refresh on a feed now correctly forces an update
