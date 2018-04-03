@@ -1,0 +1,13 @@
+0.5.9.1  
+  . added: (MPC-HC) added option to close player when buffering fails, for example when a livestream ends
+  . added: (TaskbarIcon) added contextmenu to favourites in the contextmenu of the TaskbarIcon
+  . added: (Feed) added the option to reverse the entries of a feed         
+  . fixed (MainWindow) fixed rare crash occuring in main window when using MPC-HC
+  . fixed: (Settings)  MPC-HC can now correctly used as default player        
+  . fixed: (MPC-HC) Player executable is now correctly found if it is installed
+  . enhanced: (TaskbarIcon) minor improvements
+  . enhanced: (HLS Streamprovider) HLS livestreams should now be more consistent
+  . changed: (PlayerProfile selector) When adding a new player profile, a copy of the currently selected player profile are used instead of the default player profile
+  . changed: (Playlist) The marked entry can now be removed by pressing delete
+  . changed: (MPC-HC) Player will no longer reset window position upon changing the stream        
+  . changed: (MainWindow) Icons in the main menu are now drawn with transparent background if not selected
