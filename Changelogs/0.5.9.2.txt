@@ -1,0 +1,6 @@
+0.5.9.2
+  . fixed: (MPC-HC) Title of the player window now correctly changes when playing a livestream
+  . fixed: (Favourites) Favourite menu now closes correctly when clicked with left mouse button
+  . fixed: (Playlist) Fixed possible bug when starting new player by pressing ctrl key while doubleclicking entry
+  . enhanced: (Feeds) The count of new feed entries is now rendered differently for better visibility
+  . enhanced: (Feeds) Feeds can now be reordered in the editing dialog via drag and drop
