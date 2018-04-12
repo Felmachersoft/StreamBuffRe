@@ -1,0 +1,7 @@
+0.5.10.0
+  + added: (ChatPopout) Chat of livestreams (twitch, mixer, youtube, smashcast) can now be opened in the a browser (see ChatPopout in settings for customization)
+  . enhanced: (PreviewWindow) Rendering is now more consistent
+  . enhanced: (Updater) Updater is now be more stable and faster (It will be used for next update)
+  . fixed: (MPV) Some qualities of youtube videos did not play correctly
+  . fixed: (VLC) Playback position is shown correctly again
+  . fixed: (Connections) Recommendations provide the correct stream urls again
