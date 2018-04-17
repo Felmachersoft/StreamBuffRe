@@ -1,0 +1,11 @@
+0.5.10.1
+  . added: (ChatPopout) Added support for chatty to show twitch livestream chats
+  . changed: (FavouriteDialog) If no Favourite is selected before clicking export, everything will be exported
+  . changed: (VLC) Instead of retrieving the last vlc release, 3.0.1 will be downloaded via automatic setup
+  . changed: (MainWindow) Check markers are now drawn with a white background when selected
+  . changed: (Buffering) Streamconsumer will no longer block the buffering of incoming segments
+  . enhanced: (FirstTimeSetup) Better marked necessary and optional components
+  . fixed: (UpdateCheckerDialog) Closing the dialog will no longer cause an internal exception
+  . fixed: (FirstTimeSetup) Failed downloads can now done again
+  . fixed: (FFMPEG Converter) Fixed download link for automatic download
+  . fixed: (SegmentDownloader) Fixed a rare case of download error (occured only on multiple running streams)
