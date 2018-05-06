@@ -1,0 +1,16 @@
+0.5.11.0
+  + added: (MPV) Added context menu to mpv, open via left click on new menu button (only visible without border for now)
+  + added: (Feeds) Added contextmenu item to copy the url of a feed to clipboard
+  . enhanced: (HLS Provider) Optimized memory managment and realiability for HLS streams     
+  . enhanced: (MPD provider) Optimized memory managment   
+  . enhanced: (Download) Downloads are now possible with limited memory for fixed length streams
+  . enhanced: (Conversion) Conversions are now possible with limited memory for fixed length streams
+  . changed: (BufferSettings) Lowered default max buffer size from 2 GB to 512 MB
+  . changed: (BufferSettings) If buffer limit is not ignored for fixed videos, seperate audio video streams are no longer balanced
+  . changed: (BufferSettings) Cleaning up memory after removing streams is now activated by default, removed setting for it 
+  . fixed: (MainWindow) Changing clipboard listening settings via menu works correctly now
+  . fixed: (FavouriteEditDialog) Importing favourites without selecting a destination will no longer fail
+  . fixed: (Playlistmanager) Stop cosnumer in contextmenu correctly lists seperate audio stream providers
+  . fixed: (HTTP Segment Provider) fixed access error sometimes occuring with Windows 10 1803
+  . fixed: (Download) Removed incorrect error message after successfull download
+  . fixed: (Conversion) Removed incorrect error message after successfull conversion
