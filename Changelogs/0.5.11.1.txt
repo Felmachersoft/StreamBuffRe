@@ -1,0 +1,10 @@
+0.5.11.1 
+  . added: (MPV) Added audio device selection to context menu
+  . added: (MPV) Added display settings to context menu
+  . added: (MPV) Added loop option to context menu
+  . enhanced: (MPV) Context menu is now more responsive
+  . enhanced: (MPV) Context menu button is now also shown when border is visible        
+  . enhanced: (Log Dialog) The log inside the dialog will now update while using StreamBuffRe
+  . fixed: (MPV) Middle mouse button correctly toggles mute on newer mpv versions
+  . fixed: (MPV) Livestreams with very long segments (10 seconds and longer) were sometimes treated as fixed length videos 
+  . fixed: (Updater) fixed bug preventing StreamBuffRe from being closed on update (used with next update)
