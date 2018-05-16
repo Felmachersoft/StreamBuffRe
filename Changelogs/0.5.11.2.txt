@@ -1,0 +1,8 @@
+0.5.11.2
+  . added: (Feeds) Feeds can now also be marked as seen via context menu
+  . added: (Favourites) Favourites can now also be marked as seen via context menu
+  . enhanced: (HTTP_SegmentProvider) Better compatibility for Mpeg Dash based VODs in MPC-HC and VLC
+  . enhanced: (HTTP_SegmentProvider) Playback positions of HLS based VODs (like twitch VODs) can now be changed in MPC-HC and VLC as well
+  . fixed: (HTTP_SegmentProvider) Fixed playback of very long Mpeg Dash based VODs in MPV (fixes the filename too long bug)
+  . fixed: (Feeds) When a favourite is created from a complete feed, the order and count of favourites are now correct
+  . fixed: (MPV) The hide borders contextmenu item is now checked matching the correct border state
