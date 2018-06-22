@@ -1,0 +1,5 @@
+0.5.12.0
+  + added: (Playlist) The Playlist now offers multiselect, right click when multiple entries are selected to see new options (full license only)
+  . fixed: (HLS provider) End of livestreams are noticed again
+  . fixed: (Synchronization) If synced stream is already running it is now correctly registered in more cases
+  . enhanced: (Synchronization) Synchronization works now more accurate and for more livestreams
