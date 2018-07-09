@@ -1,0 +1,10 @@
+0.5.13.0
+  + added: (Provider) Added FFMPEG provider adding rtmp protocol to StreamBuffRe (FFMPEG must be setup correctly to use it)
+  + added: (Playlist) Favourites can now be created from multiple selected entries (Full license required)
+  . fixed: (Playlist) Entries are now removed when pressing delete while multiple entries are selected
+  . fixed: (Playlist) Current selection is now correctly removed after removing entries
+  . fixed: (NetworkConnection) Current status is now updated after establishing connection
+  . fixed: (ConnectionsWindow) Icons in menues are now correctly rendered
+  . fixed: (ConnectionsWindow) Clicking on <watch synced> -> <play in new player> works now when only default player is available  
+  . enhanced: (Synchronization) Further enhanced syncing of streams
+  ! changed: (MPV menu) changed menu text <Watch other stream> to <Change stream>
