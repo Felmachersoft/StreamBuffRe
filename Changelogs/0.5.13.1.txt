@@ -1,0 +1,4 @@
+0.5.13.1
+  . fixed: (FFMPEG provider) fixed parsing the duration with older FFMPEG versions
+  . fixed: (FFMPEG provider) fixed possible crash occuring when FFMPEG provides unkown line format
+  . fixed: (FFMPEG provider) fixed rare case in which the user would get a an error message about broken pipe
