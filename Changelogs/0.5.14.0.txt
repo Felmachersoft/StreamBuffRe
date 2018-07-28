@@ -1,0 +1,18 @@
+0.5.14.0
+  + added: (Multiselect) Multiple downloads can now be started when multiple entries are selected (full license only)
+  + added: (Multiselect) Multiple converts can now be started when multiple entries are selected (full license only)
+  + added: (FFMPEG Provider) It let's you pipe the output of FFMPEG into StreamBuffRe, use <ffmpeg: parameter> as url (without < >)
+  + added: (FFMPEG Provider) Enter window as url to record a window or desktop to record your desktop through FFMPEG
+  . enhanced: (VLC) When a user tries to use an outdated version of VLC, an error message is shown
+  . enhanced: (Setup) Texts after setting up plugins are now more obvious
+  . enhanced: (Connections window) Connection settings can now changed via context menu
+  . enhanced: (Connections window) URLs from streams of contacts can now directly been copied to clipboard via context menu
+  . enhanced: (Playlist) All convert profiles are now directly shown in context menu
+  . fixed: (MPV) Fixed possible bug that prevents MPV from playing streams with newlines in their names
+  . fixed: (Setup) Optional plugins no longer enable the next button
+  . fixed: (PhantomJS Resolver) No longer possible to create playlistentries without valid urls        
+  . fixed: (Connections window) Contextmenu now informs about missing url of selected stream instead of error
+  . fixed: (Favourites) Resolving a favourite will no longer create an unnecessary second message
+  . fixed: (MainWindow) Focus is no longer stolen from other windows when StreamBuffRe starts minimized
+  . changed: (SettingsWindow) Settings are now collapsed by default
+  . changed: (LocalFiles) local .webm files can now be used with StreamBuffRe
