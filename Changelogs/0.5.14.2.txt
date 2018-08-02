@@ -1,0 +1,7 @@
+0.5.14.2
+  . enhanced: (MPC) Enhanced compatibility to MPC-BE with version 1.5.2.3852 and higher
+  . enhanced: (FeedEditDialog) The list will autoscroll to show the latest added feed
+  . enhanced: (Feeds) Added item in the feeds dropdown to inform how to add feeds
+  . enhanced: (Favourites) Added item in the favourites dropdown to inform where new favourites will be shown
+  . changed: (HTTP_SegmentProvider) Due to problems with some youtube videos, mpv uses edl instead of mpd protocol again
+  . fixed: (Autoplay) Fixed a possible timeout when switching to next stream while using limited memory for fixed size streams
