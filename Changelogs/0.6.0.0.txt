@@ -1,0 +1,15 @@
+0.6.0.0
+  + added: (Search) Added search for streams, show results by pressing return+shift in the url field or use the search button
+  + added: (Playlist) Added option to start player for each selected entry at once
+  . enhanced: (TaskbarPreviewWindow) New HTML based tooltips with preview images are shown before adding a widget
+  . enhanced: (Tox connection) Added notice behind names to show if contact is only connected via TCP relay node
+  . enhanced: (GermanIPTV) Added Resolver for DELUXE MUSIC
+  . enhanced: (TimeTableWidget) Enhanced compatibility for other formats of google calendar urls
+  . enhanced: (TimeTableWidget) Added support for combined google calendars using multiple ids
+  . enhanced: (Dialogs) Enhanced placements of dialogs, some dialogs support shortcuts
+  . enhanced: (OnlineCheckerWidget) Added preview image for some livestreams in the tooltip
+  . enhanced: (OnlineCheckerWidget) Enhanced support for youtube livestreams
+  . enhanced: (OnlineCheckerWidget) Enhanced visual quality of small icons
+  . fixed: (OnlineCheckerWidget) New icon is now loaded properly when stream url was changed in settings
+  . fixed: (StreamBuffer) Fixed very rare case of crash when switching from livestream to VOD in player
+  . fixed: (TimeTableWidget) Fixed rare parsing error occuring for entries without time
