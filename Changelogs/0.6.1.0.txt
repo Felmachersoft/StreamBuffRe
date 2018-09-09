@@ -1,0 +1,14 @@
+0.6.1.0
+  + added: (SearchWidget) The SearchWidget lets you search directly from the taskbar preview window     
+  + added: (QuicksearchDialog) Via a Global Hotkey you can directly open the QuicksearchDialog now
+  . changed: (GlobalHotkeySettings) Now uses tabs to be prepared for additional hotkeys
+  . enhanced: (Feeds) Added option to directly open link of feed entries in the browser to context menu
+  . enhanced: (SearchResultWindow) Enhanced visual styles for some results that exceeded max width
+  . enhanced: (SearchResultWindow) Style of settings icon in darkmode enhanced
+  . enhanced: (SearchResultWindow) Content is now always updated on window resize
+  . enhanced: (SearchResultWindow) Has now button support, press direction keys to select result, return to play selected stream, space to add it to playlist, menu for context menu
+  . fixed: (SearchWindow) Fixed rare bug causing the search window to freeze
+  . fixed: (YoutubeSearch) Fixed incorrect urls for playlists
+  . fixed: (YoutubeSearch) Fixed error for youtube searches that including invalid results
+  . fixed: (OnlineCheckerWidget) Fixed download of preview image of twitch streams, when url contained upper letters
+  . fixed: (GlobalHotkeySettings) Hotkeys will no longer trigger while the settings window is open
