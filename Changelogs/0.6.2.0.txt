@@ -1,0 +1,9 @@
+0.6.2.0
+  + added: (StreamTooltip) Added stream preview tooltips to the playlist, widgets and contact window for all kinds of streams              
+  . enhanced: (Playlist) Added possibility to drag and drop playlistentries into other programs to share their URLs
+  . enhanced: (SearchResultWindow) Added possibility to download/convert results via context menu
+  . enhanced: (SearchResultWindow) Added possibility to drag and drop results into other programs     
+  . enhanced: (ContactsWindow) Added possibility to drag and drop streams watched by contacts into other programs
+  . enhanced: (OnlineCheckerWidget) Tooltip is now shown left/right of the widget and loaded without blocking the GUI
+  . fixed: (SearchResultWindow) Fixed error occuring when invalid selection is used with key controls
+  . fixed: (YoutubeSearch) Fixed error for youtube searches that including invalid results (like paid videos)
