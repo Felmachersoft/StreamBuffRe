@@ -1,0 +1,8 @@
+0.6.3.0
+  + added: (SearchSettings) Added search settings to order and toggle used search plugins
+  + added: (PlayerControllerWidget) Added StreamTooltip to PlayerControllerWidget
+  + added: (MixerSearch) Added search for mixer.com
+  + added: (DailymotionSearch) Added search for dailymotion.com
+  . fixed: (StreamTooltip) Hopefully Fixed error that prevents the StreamTooltip from hidding again
+  . fixed: (FavouritesContextMenu) Set correct icon in for add to playlist option
+  . fixed: (GlobalHotkeySettings) Rare error that could cause freeze of SettingsWindow
