@@ -1,0 +1,7 @@
+0.6.4.0
+  + added: (MultiSearch) You can now search for lists of streams by dropping a .txt-file onto the MainWindow that contains one stream title per line 
+  . fixed: (StreamTooltip) Fixed invalid detection of streaminfo from OpenGraph values
+  . fixed: (StreamTooltip) Fixed missing image when using OpenGraph values without description
+  . fixed: (StreamTooltip) Fixed error with twitch VODs
+  . enhanced: (MainWindow) Unified the drag and drop behavior for the Playlist and the ResolverView
+  . enhanced: (DragDrop) Enhanced compatibility for dropping streams onto other programs
