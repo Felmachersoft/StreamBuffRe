@@ -1,0 +1,9 @@
+0.6.5.0
+  + added: (ListSeachWindow) Added support to to search for spotify urls (title and artist will be extracted from urls)
+  + added: (DownloadSettings) Added download settings to adjust batch downloads
+  . enhanced: (BatchConvert) Limited parallel conversions if they are started at once (default is 3)
+  . enhanced: (BatchDownload) Limited parallel downloads if they are started at once (default is 3)
+  . enhanced: (StreamInfoTooltip) Enhanced info for twitch VODs
+  ! fixed: (Download) Fixed serious bug that could currupt files downloaded files  
+  . fixed: (Download) Fixed rare bug occuring when downloading many (40 and more) streams parallel
+  . changed: (SearchResultWindow) Default width on first start was changed
