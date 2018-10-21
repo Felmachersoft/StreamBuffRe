@@ -1,0 +1,11 @@
+0.6.6.0
+  + added: (ResolverSettings) Added possibility to change amount of parallel resolving tasks on URL resolver settings page
+  + added: (StreamInfoTooltip) StreamInfoTooltip are now also used for history, favourites and feed menu items
+  + added: (StreamInfoTooltip) Enhanced meta data recognition, for example the duratioon of youtube videos does now show
+  . enhanced: (ResolverView) It shows progress when resolving lists and streaminfos on mouse hover, removed unnecesary label
+  . enhanced: (DragAndDrop) Multiple local files can now dropped and resolved, invalid files are automatically excluded 
+  . fixed: (Menus) Menus will no longer expand to other screens
+  . fixed: (StreamInfoTooltip) Fixed image url when relative urls are used
+  . fixed: (StreamInfoTooltip) StreamInfoTooltip will no longer steal the focus of the parent window
+  . fixed: (DragAndDrop) Dropping local files onto StreamBuffRe to add them works again
+  . changed: (ResolverTasks) Changed parallel resolving tasks from 6 to 3, can be changed in URL resolver settings page
