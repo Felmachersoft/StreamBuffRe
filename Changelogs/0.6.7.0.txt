@@ -1,0 +1,6 @@
+0.6.7.0
+  + added: (Vimeo_Search) Added search for vimeo.com
+  . enhanced: (RemoteControl) Completely overhauled the remote control, many small enhancements, now works with seperated modules
+  . enhanced: (HLS Provider) Enhanced stability and lowered latency of HLS streams
+  . fixed: (StreamInfoPopup) OpenGraph infos are now preffered over video object infos
+  . fixed: (Conversion) Fixed bug that caused overriding previous files when converting multiple times with the same profile
