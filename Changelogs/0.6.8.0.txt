@@ -1,0 +1,7 @@
+0.6.8.0
+  + added: (MPV) Dragging and dropping files/urls onto MPV will now resolve them via StreamBuffRe and play them
+  + added (RemoteControl settings) Added QR Code to the HTTP remote control settings to ease opening the remote control with a mobile device
+  + added: (RemoteControl) Added Feeds to the remote control, you can find them via the menu
+  + enhanced: (RemoteControl) Added watermarks to streams and player widget when they are empty
+  . enhanced: (Youtube-dl) All HTTP-header from youtube-dl are now used providing better compatibility with some services
+  . enhanced: (ConnectionsTreeview) Prevent context menu items from expanding to other screen
