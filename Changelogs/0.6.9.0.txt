@@ -1,0 +1,5 @@
+0.6.9.0
+  + added: (RemoteControl) Connections widget was added the remote control, find it via menu
+  . enhanced: (RemoteControl) Better design in feeds for new and watched items and new link count
+  . enhanced: (RemoteControl) Better design for watched favourites
+  . fixed: (RemoteControl) No longer will an unnecessary scroll bar be shown while using darkmode
