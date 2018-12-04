@@ -1,0 +1,6 @@
+0.6.10.0
+  + added: (RemoteControl) Added search widget to remote control, use it via menu
+  . enhanced: (RemoteControl) Added possibilty to close connections in connection widget
+  . enhanced: (RemoteControl) Enhanced compatibility for older and mobile browsers
+  . fixed: (VimeoSearch) fixed exception caused by empty search query when using vimeo search
+  . fixed: (RemoteControl) fixed bug that could prevent loading the remote control on first opening
