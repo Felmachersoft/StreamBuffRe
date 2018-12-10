@@ -1,0 +1,2 @@
+0.6.10.1
+  . fixed: (RemoteControl) fixed a bug that caused touches being handled twice
