@@ -1,0 +1,10 @@
+0.6.11.0
+  + added: (Playlist) Added possibility to create clips of livestreams (check context menu)
+  + added: (MPV) Clips can also be created via MPVs context menu
+  + added: (MPV) New item added to context menu that minimizes latency of a livestream by going fast forward
+  . enhanced: (MPV) Context menu now shows the current playback speed
+  . enhanced: (MPV) Improved necessary duration to determine if stream is live or has fixed length
+  . enhanced: (ResolverView) Clicking with the right mouse button on the URL field in the main window will show a shortcut context menu
+  . fixed: (Playlist) fixed a bug that could cause the progress-bar of a playlistentry to disapear if jumped arround in a livestream
+  . fixed: (vimeo_search) fixed a bug that occuring when searching on vimeo with an empty query
+  . fixed: (youtube_search) fixed a bug that youtube failed to show frontpage videos when searching with empty query
