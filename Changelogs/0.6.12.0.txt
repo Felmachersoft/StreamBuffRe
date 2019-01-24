@@ -1,0 +1,4 @@
+0.6.12.0
+  + added: (Global_Hotkeys) You can now create and bind custom commands to hotkeys in the Global Hotkeys settings
+  . enhanced: (InfoWindows) Greatly reduced flickering of InfoWindows that appear when mouse hovers over playlistentry for example
+  . enhanced: (Menus) InfoWindows will now close correctly, when a menuitem disappears
