@@ -1,0 +1,5 @@
+0.6.13.0
+  + added: (Notifications) Added custom notifications windows which replaces the previous used windows build-in notifications
+  . enhanced: (Command Editor) Added suggestions for connection names
+  . changed: (Notifications) Resolving notifications now shows names instead of URLs of streams and playlists 
+  . fixed: (MPV) Fixed a bug that caused StreamBuffRe to loose control over MPV when a stream is greater than 2 GB in total
