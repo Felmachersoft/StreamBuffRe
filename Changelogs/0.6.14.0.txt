@@ -1,0 +1,13 @@
+0.6.14.0        
+  + added: (Notifications) Added dark theme for notifications (see window settings)
+  . enhanced: (Notifications) Notifications are now synced between remote control and desktop
+  . enhanced: (Notifications) Notifications can now have buttons to trigger actions
+  . enhanced: (Notifications) Notifications are now stacked to show several of them at a time
+  . enhanced: (Search) Youtube searchresults no longer contain the same result twice
+  . enhanced: (Search Result Window) Small design enhancements
+  . fixed: (Conversion) When a conversion was started via remote control the user now gets a notifications when it finishes
+  . fixed: (Download) When a download was started via remote control the user now gets a notifications when it finishes
+  . fixed: (MPV) Fixed a bug that prevented very long dash movies (longer than an hour) from being played in MPV
+  . fixed: (Playlist) Fixed a bug preventing the stream info popup from showing after being visible before
+  . fixed: (Global hotkeys) A warning prevents use of same combinations multiple times for custom commands
+  . changed: (Notifications) Changed notifications for finished downloads and conversions
