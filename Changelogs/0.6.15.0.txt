@@ -1,0 +1,13 @@
+0.6.15.0
+  + added: (OnlineCheckerWidget) Added possibility to show a notification when a streams goes online or changes status (check settings to activate these notifcations)
+  . enhanced: (HTMLWindow) Dark theme now also applies for stream info popups
+  . enhanced: (StreamInfo) Enhanced caching for StreamInfos
+  . enhanced: (StreamInfoPopup) Enhanced design in StreamInfoPopups
+  . enhanced: (Youtube) Added support for channels that use livestreams. Now you can use the channel/user url to retrieve the corresponding livestream
+  . fixed: (MPV Remote) Fixed a bug that could cause invalid total times for long videos (longer than 2 hours)
+  . fixed: (OnlineCheckerWidget) Fixed a bug that caused an exception, when an OnlineCheckerWidget was removed
+  . fixed: (OnlineCheckerWidget) Long stream names are now shortened to prevent them from becoming invisible
+  . fixed: (Feeds) Fixed a bug that made the notification about new entries in feeds show up twice
+  . changed: (Notifications) Dark theme for notifications is now the default setting
+  . changed: (Searchwindow) Dark theme for search window is now the default setting
+  . changed: (RemoteControl) Dark theme is now used for notifications
