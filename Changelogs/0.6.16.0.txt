@@ -1,0 +1,9 @@
+0.6.16.0
+  + added: (TaskbarPreviewWindow) Added dark theme for preview window (go to Settings->WindowSettings to activate it)
+  . fixed: (OnlineCheckerWidget) Refreshing works again as intended
+  . enhanced: (HTMLWindow) Unnecessary scrollbars (for example in StreaminfoPopups) are no longer shown        
+  . enhanced: (FFMPEGConverter) Invalid resolutions are now auto fixed (like odd resolutions for h264)
+  . enhanced: (FFMPEGConverter Dialog) Enhanced design for adding and removing conversion profiles        
+  . fixed: (FFMPEGConverter) Fixed a bug that would make conversions fail when -1 was used as resolution with some codecs
+  . changed: (OnlineCheckerWidget) The icon is hidden when stream goes offline like in version 0.6.14.0 and below        
+  ! changed: (Converter) Limited the amount of additional converter profiles to 2 when using free license
