@@ -1,0 +1,2 @@
+0.6.16.1
+  . fixed: (ContextMenus) The arrows of context menus are shown correctly again on the default bright theme
