@@ -1,0 +1,4 @@
+0.6.16.2
+  . fixed: (TaskbarPreviewWindow) Fixed a bug that could make StreamBuffRe become unresponsive when TaskbarPreviewWindow opens
+  . enhanced: (OnlineCheckerWidget) Improved performance when using many OnlineCheckerWidgets
+  . enhanced: (OnlineCheckerWidget) Better caching when using notifications
