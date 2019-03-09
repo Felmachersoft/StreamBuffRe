@@ -1,0 +1,12 @@
+0.6.17.0
+  + added: (MainWindow) Added dark theme for MainWindow and Connection window
+  + added: (WindowSettings) Added to switch between dark and bright theme for MainWindow and Connection window        
+  . enhanced: (TaskbarPreviewWindow) Redesigned the edit mode to simplify reordering and removing widgets
+  . enhanced: (TaskbarPreviewWindow) Edit mode allows to switch between bright and dark mode
+  . enhanced: (StreaminfoPopup) Justified text and prevent unnecessary splitting of words
+  . enhanced: (Feeds) Enhanced rendering of new entry count and new entry icon in the feeds menu
+  . enhanced: (SetupWizard) Added checkbox to switch between bright and darkmode, default is darkmode        
+  . changed: (RemoveIcon) Changed the removed icon used throughout StreamBuffRe
+  . changed: (TaskbarpreviewWindow) The dark theme is now the default setting        
+  . fixed: (ClipboardListener) Fixed rare bug causing listening for urls in the clipboard to stop working
+  . fixed: (Playlist) Fixed a bug that caused the Mainwindow becoming irresponsive when removing entries
