@@ -1,0 +1,8 @@
+0.7.0.0
+  + added: (Tasks) StreamBuffRe can now be automated via tasks, manage them via the Tasks menu on top of the main window
+  + added: (Twitch) Added support for several multi twitch stream sites
+  + added: (TimeTable Widget) You can now schedule tasks for upcoming events
+  . enhanced: (TimeTable Widget) Infos about events are now displayed in a html window
+  . enhanced: (OnlineChecker Widget) Enhanced compability for streams that needs to be resolved
+  . fixed: (HTMLView) Fixed bug that could cause HTML based views from becoming ccrrupt if a single image didn't load correctly               
+  ! changed: (HLS) Advertisments in HLS streams will now be skipped and a notification will be shown
