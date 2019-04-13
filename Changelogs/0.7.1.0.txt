@@ -1,0 +1,9 @@
+0.7.1.0
+  + added: (Contacts) You can now recommend multiple streams or your complete playlist to contacts
+  + added: (Youtube-dl) Added option to add the date time of the resolving to live stream titles        
+  . enhanced: (ResolveAndDownload command) Added details to some parameter descriptions and added the QualityName parameter 
+  . enhanced: (TimeTable widget) Enhanced the performance when rendering the timetable            
+  . fixed: (TimeTable widget) Notifications for events without durations are now shown correctly
+  . fixed: (TimeTable widget) The description of an entry could have the wrong backcolor in the info window  
+  . fixed: (ResolveAndDownload command) Fixed a bug that caused an error when a foldername was used as DestinationPath
+  ! experimental: (ResolveAndDownload command) Added experimental support for reconnects of downloads, also prevents downloading streams twice
