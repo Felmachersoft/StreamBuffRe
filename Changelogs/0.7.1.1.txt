@@ -1,0 +1,7 @@
+0.7.1.1        
+  . added: (StreamOnlineChecker) Added stream infos for mixer streams
+  . enhanced: (Contacts) Recommentations of single streams are now shown in an info popup
+  . fixed: (SoundDevices) Fixed a crash caused by missing rights to get system audio devices or absence of any audio devices
+  . fixed: (ResolveAndDownload Command) fixed some bugs causing incorrect file names and overwritting old files when a folder was given
+  . enhanced: (Updater) Added additional pauses to the updater to make it smoother and less error prone, also added information for user if it fails, it will be used with next update!
+  . enhanced: (StreamOnlineChecker) Events will no longer fire while triggers are edited in the taskmanager
