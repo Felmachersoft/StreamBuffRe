@@ -1,0 +1,6 @@
+0.7.2.0
+  + added: (RememberPlaybackposition) StreamBuffRe will now remember the last playbackposition of a video and ask you to return to it next time you start the video
+  + added: (RememberPlaybackposition) Added new settings in the the Player settings page
+  . enhanced: (TimeTable widget) You can now recommend future events to contacts by right clicking on a future event
+  . fixed: (RemoteControl) Fixed a bug that prevents correct message handling in the remote control while using a fullscreen application               
+  . fixed: (Downloading) Fixed a bug that caused very slow write speeds when saving videos to disk
