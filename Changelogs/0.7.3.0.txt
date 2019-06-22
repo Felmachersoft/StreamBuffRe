@@ -1,0 +1,17 @@
+0.7.3.0
+  + added: (FeedChecker) The feedchecker provides a way to react to new entries in feeds with tasks        
+  . enhanced: (Feeds) Added entries to context menu of feeds to attach/remove tasks to the feed   
+  . enhanced: (ToxConnection) Added option to automatically reconnect on disconnect (is active per default)        
+  . enhanced: (Contacts) Enhanced messagetext, when an event recommendation is received
+  . enhanced: (Twitch) The Info of twitch streams will now tell if a channel broadcasts reruns instad of being live
+  . enhanced: (DownloadList) Downloading lists is now more realiable and will only cancel when an entry is removed
+  . fixed: (DownloadList) Downloading lists now correctly accepts JSON arrays as input for entries
+  . fixed: (Feeds) The message about new feedentries will no longer show invalid feedentry counts if feed data could not be received
+  . fixed: (Feeds) Feedentries will now show the correct streaminfos after a feed gets updated
+  . fixed: (Youtube-dl) If default quality is set to worst the correct quality is now used
+  . fixed: (Tasks) Created tasks are saved on exit to prevent losing reminders in the timetable preview when closing StreamBuffRe
+  . fixed: (Taskmanager) StreamBuffRe now prevents opening multiple Taskmanager windows at the same time        
+  . fixed: (Conversion) Removed conversions will no longer yell an error
+  . fixed: (Downloading) Fixed a bug that could cause downloads to get stuck if they have seperate audio and video
+  . fixed: (RemoteControll) Fixed possible bug in remote control when removing many conversions at once
+  . changed: (Playlist) Slightly changed background colors for conversion progress of playlist entries
