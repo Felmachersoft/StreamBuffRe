@@ -1,0 +1,8 @@
+0.7.4.0
+  + added: (ContactChecker) The contactchecker provides a way to react to changes of connections and contacts with tasks
+  + added: (ConnectionsWindow) Added context menu for connections and contacts to quickly attach/remove tasks
+  + added: (ConnectionsWindow) Added context menu to keep players in sync even when played url changes or player pauses
+  . enhanced: (Mono) Improved linux compatibility with mono framework, not ready for usage yet
+  . fixed: (WatchingSynced) Fixed a bug causing player syncing to fail and notifying about message timeout
+  . fixed: (WatchingSynced) Fixed a bug that caused a local player that syncs with a paused player to play on instead of pause
+  . fixed: (Buffering) Fixed a bug that could keep streams buffering after a player switched to play another stream
