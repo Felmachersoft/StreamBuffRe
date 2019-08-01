@@ -1,0 +1,5 @@
+0.7.5.0
+  + added: (Linux) Added linux/mono support (for further information see https://streambuffre.com/support/#LinuxPrerequisites)
+  . fixed: (StreamInfo) Fixed a bug that showed invalid creation time of twitch vods
+  . fixed: (MPV) Fixed a bug that could cause loss of connection to MPV if paused for too long
+  . fixed: (Feeds) Fixed possible bug that could cause a crash if a linklist provider threw an exception
