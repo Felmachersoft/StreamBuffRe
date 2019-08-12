@@ -1,0 +1,10 @@
+0.7.5.1
+  + added: (InformAboutContact) Added new command to inform about the streams a contact is currently watching
+  . fixed: (LazyLoading) LazyLoading streams will no longer cause invalid errors
+  . fixed: (Namepipe connection) Fixed a a bug that caused an error when nameedpipe connection was established and user opens settings
+  . fixed: (Linux) OpenFolderCommand now works in linux
+  . fixed: (Linux) Fixed an error preventing phantomJs to work on some systems
+  . fixed: (Linux) HTTP remote control now works in linux
+  . changed: (Feeds) Now using rss feeds of youtube playlists to speed up retrievel of new entries
+  . changed: (Linux) Removed several unnecessary settings in linux
+  . changed: (ContactTreeView) Attaching tasks to get informed about the change of what a contact watches now uses the InformAboutContact command
