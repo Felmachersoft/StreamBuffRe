@@ -1,0 +1,7 @@
+0.7.5.3
+  . fixed: (GermanIPTV) Fixed many streamurls for german broadcasting stations
+  . enhanced: (BufferingSettings) Added settings to force waiting after a segment download failed
+  . enhanced: (BufferingSettings) Added settings to change the amount of download retries of failed segments        
+  . enhanced: (ResolveAndDownload) The command ResolveAndDownload can now be configured to retry resolving via the ResolveRetries parameter     
+  . enhanced: (ResolveAndDownload) Enhanced detection if the specified stream is already downloading
+  . changed: (ResolveAndDownload) The TryReconnect command will now try to reconnect 6 times with a waittime of 11 seconds to make it more reliable
