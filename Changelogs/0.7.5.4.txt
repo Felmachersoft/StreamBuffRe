@@ -1,0 +1,8 @@
+0.7.5.4
+  . fixed: (Taskmanaer) Fixed a bug that could prevent removing of newly created tasks
+  . fixed: (HTML) Fixed missing html char escaping at various places which prevents breaks in the layout
+  . enhanced: (Search_Twitch) Teh search will now find more streams based on the entered query
+  . enhanced: (Search_Twitch) When searching without text, the results will be the 25 currently most watched streams
+  . enhanced: (Feeds) Feeds of twitch channels now better work for archived, highlighted, uploaded videos and clips
+  . enhanced: (SearchResultWindow) Now it is saved if a search provider is collapsed or not
+  . enhanced: (SearchResultWindow) The settings contextmenu now allows you to add and remove search providers
