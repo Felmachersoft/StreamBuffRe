@@ -1,0 +1,10 @@
+0.7.6.0
+  + added: (SearchresultWindow) Added clicks/viewers to search results (activate in menu or press F8)
+  . fixed: (StreamInfo) Fixed preview images for twitch videos
+  . fixed: (SearchresultWindow) Fixed a bug that prevented livestream previewimages from getting refreshed
+  . fixed: (TaskManager) Fixed special cell types when running in linux and other small fixes
+  . enhanced: (SearchresultWindow) The context menus will no longer expand to another desktop
+  . enhanced: (Linux) Using popup to ask for authentication instead of using sudo if possible
+  . changed: (Linux) GlobalHotkeys are no longer listed in the TaskManager when running in linux
+  . changed: (Linux) GlobalHotkeys in the settings can no longer cause error in linux
+  . changed: (Linux) MainWindow is now a bit wider so that task and info are visible in the menu
