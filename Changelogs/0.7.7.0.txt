@@ -1,0 +1,4 @@
+0.7.7.0
+  + added: (Subtitles) Added possibility to download youtube subtitles via the donwload context menu of a playlistentry
+  + added: (Subtitles) Added support for youtube subtitles in mpv. Activate them via mpvs context menu 
+  . fixed: (YoutubeSearch) Playlists and videos of the same playlist will now show the correct text on image
