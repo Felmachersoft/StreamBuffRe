@@ -1,0 +1,5 @@
+0.7.8.0                
+  + added: (Notifications) When resolving fails the notification will now contain a reason
+  + added: (ResolverSettings) You can now let a system command execute if a 429 error occurs while resolving
+  + added: (PlayerWidget) Added context menu to the player widget
+  . changed: (Youtube-dl) Errors while resolving with youtube-dl are now shown in the notification
