@@ -1,0 +1,3 @@
+0.7.8.1               
+  . fixed: (MPV) Fixed bug with MPV 30 preventing StreamBuffRe from detecting the correct stream length for all streams
+  . fixed: (PlaylistContextMenu) Tooltips of the conversion profile items for downloading can no longer overlay the item
