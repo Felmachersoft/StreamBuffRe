@@ -1,0 +1,6 @@
+0.7.8.2
+  . fixed: (Resolving) Fixed a bug that could prevent results of resolving from being added to playlist
+  . fixed: (TaskbarPreviewWindow) Fixed a bug that could cause a crash when closing the TaskbarPreviewWindow in very rare occasions
+  . enhanced: (youtube-dl settings) Added option to include the stream description into the streams title for twitch live streams
+  . enhanced: (DownloadAndResolve-Command) Downloading to networkpaths under windows is now possible
+  . enhanced: (TaskManager) Added special cell type to ease setting path to files and directories
