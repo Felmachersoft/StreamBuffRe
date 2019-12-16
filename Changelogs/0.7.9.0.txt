@@ -1,0 +1,4 @@
+0.7.9.0
+  + added: (Contacts) You can now invite a contact to watch a stream synced with you via contextmenu of played stream (requires full license)
+  . fixed: (MPV) Fixed a bug that prevented the top right buttons in MPV to show up
+  . fixed: (Tox) Exchanged no longer working bootstrap node
