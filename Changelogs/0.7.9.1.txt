@@ -1,0 +1,2 @@
+0.7.9.1
+  . enhanced: (TimeTableWidget) RocketbeansTV calendar working again, now shows preview images if a VOD is available
