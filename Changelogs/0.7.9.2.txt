@@ -1,0 +1,3 @@
+0.7.9.2
+  . enhanced: (TimeTableWidget) RocketbeansTV calender now shows next weeks events
+  . fixed: (TimeTableWidget) Fixed crashing issue for specific ical calendars
