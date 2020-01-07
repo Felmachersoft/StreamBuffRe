@@ -1,0 +1,4 @@
+0.7.9.3
+  . enhanced: (Saving) Unnecessary diacritics will be removed from filenames to prevent strange unicode behavior
+  . fixed: (TimeTableWidget) RocketbeansTV will no longer show events twice
+  . fixed: (TimeTableWidget) RocketbeansTV event times are fixed for next week
