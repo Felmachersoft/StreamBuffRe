@@ -1,0 +1,5 @@
+0.7.9.4
+  . enhanced: (Icon) The icon of the main executable now offers higher resolutions
+  . enhanced: (Mainwindow) Added a new menuitem to the info menu to create an issue
+  . changed: (Mainwindow) The support menuitem in the info menu now points at StreamBuffRes support page
+  . fixed: (TimeTableWidget) Will no longer throw an exception if unable to load a timetable
