@@ -1,0 +1,7 @@
+0.7.10.0
+  + added: (Search) Added new actions to the context menu for search results to create feeds and tasks
+  + added: (Feeds) You can now create feeds from mixer channels which will list the past streams
+  . enhanced: (Feeds) Links in dailymotion feeds will now have correct names
+  . enhanced: (StreamInfo) Information for mixer past streams are now working properly
+  . enhanced: (Mixer) Removed second, not working, quality for past streams
+  . enhanced: (Search) Made it more obvious that results are missing in the free version
