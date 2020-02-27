@@ -1,0 +1,9 @@
+0.7.11.0
+  + added: (StreamInfo) Preview images will now show the last remembered playback position of vods        
+  . enhanced: (StreamInfo) Set better images for loading and failed previews
+  . enhanced: (Youtube) Changed requests to work with polymer websites
+  . changed: (Linux) MPV will no longer write terminal output into StreamBuffRes terminal
+  . changed: (OnlineCheckerWidget) Links to youtube videos will redirect to the channel to inform about livestreams
+  . fixed: (MainWindow) Fixed a bug that prevented the resolver dropdown from showing
+  . fixed: (StreamInfo) Twitch clips now use the correct streaminfo for all url formats
+  . fixed: (NotificationPopup) Fixed a bug that could cause a notification popup to stay open after forever
