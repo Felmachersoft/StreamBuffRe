@@ -1,0 +1,6 @@
+0.7.11.1
+  . enhanced: (Twitch) Searching with the exact channel name will provide the three last vods if present
+  . fixed: (Youtube) Fixed a bug that caused zero results for searches with sponsored advertisment
+  . fixed: (Linux) Fixed a bug that prevented the quality selection from showing the new value after change
+  . fixed: (Linux) Buttons in notifications now will no longer line break
+  . fixed: (Linux) MPVs context menu should show up now
