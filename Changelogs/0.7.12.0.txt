@@ -1,0 +1,16 @@
+0.7.12.0
+  + added: (Livestreams) Added experimental support (only) for recording of youtube livestreams above 1080p (needs full license, activate in settings -> URL resolver -> youtube-dl)
+  + added: (Livestreams) Added automatic token renewal for HLS and dash livestreams to keep them alive even after normal timeouts (mostly after few hours)        
+  + added: (Command) Added the ResolveAndBuffer command
+  + added: (Proxy) Added support for proxies; set in the download settings
+  . enhanced: (Settings) Seconds between livestream renewals can be set in the buffering settings
+  . enhanced: (Youtube) Will now correctly detect channel shorthand links using /c/ instead of /channel/
+  . enhanced: (Youtube) Add #onlylive behind the url of a channel or user to only resolve a livestream if there is one running
+  . enhanced: (StreamCheckerWidget) Added several options to the context menu of the play button and direct buffering when clicked with the middle mouse button
+  . enhanced: (HLS Provider) Updated detection of twitch advertisement; will only skip it on the start of a livestream
+  . fixed: (DASH) Qualities now show the correct audio bitrates for dash based qualities
+  . fixed: (DASH) Livestreams without indices will no longer fail to download new segments
+  . fixed: (Twitch) Removed the (live) part at the end of the twitch live streams added by latest youtube-dl version
+  . fixed: (ResolveAndDownload) Fixed a bug that set the wrong qualities for best and worst
+  . fixed: (Taskmanager) Fixed a bug that caused a missing backslash at the end of directories when using the dialog
+  . fixed: (Playlist) Stopping the download for separated audio and video downloads via context menu now works correctly
