@@ -1,0 +1,5 @@
+0.7.12.1
+  . fixed: (HLS) Fixed a bug in HLS token renewal that sometime caused connection losses
+  . fixed: (Playbackposition) Fixed a bug that could cause an unnecessary error message when playback positions are set
+  . fixed: (Twitch) The (live) will now also removed if the stream description is appended to the channel name
+  . enhanced: (Command) The ResolveAndDownload command now supports wildcards for the DestinationPath, see https://streambuffre.com/support#wildcards
