@@ -1,4 +1,0 @@
-0.7.12.2
-  . enhanced: (Command) The ResolveAndDownload command now supports a custom datetime wildcard, see https://streambuffre.com/support#wildcards
-  . fixed: (LazyQuality) Fixed a bug that caused missing audio for resolved lazy qualities
-  . fixed: (Search) Fixed a bug that caused many failed searches on youtube
