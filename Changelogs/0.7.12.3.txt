@@ -1,0 +1,5 @@
+0.7.12.3
+  . fixed: (Search) Youtube search is now working again
+  . fixed: (MPV) Fixed exceptions occurring with latest mpv
+  . enhanced: (Command) Added the {description_max} wildcard to the ResolveAndDownload command, see https://streambuffre.com/support#wildcards
+  . enhanced: (Youtube-dl) Added option to prepend the date and time to livestream titles
