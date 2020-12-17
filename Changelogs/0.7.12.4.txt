@@ -1,0 +1,6 @@
+0.7.12.4
+  . enhanced: (Command) Added the PreferredQuality parameter to the ResolveAndDownload command to automatically switch to better quality if available
+  . fixed: (Command) Fixed not reevaluating wildcards in filenames after reconnecting a stream started with the ResolveAndDownload command which caused overwritten files
+  . fixed: (Setup) Fixed an error when the youtube-dl update was started and the window closed before finishing
+  . fixed: (Youtube) Fixed a case in which resolving youtube channel urls with appended #onlylive failed although a livestream is running        
+  . fixed: (Youtube) Fixed resolving of 4k livestreams, if activated (still no playback)
