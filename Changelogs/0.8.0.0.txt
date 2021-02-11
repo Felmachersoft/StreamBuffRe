@@ -1,0 +1,7 @@
+0.8.0.0
+  + added: (ScChrom resolver) The new ScChrom resolver provides a way to create your own resolvers based on ScChrom config files
+  . fixed: (Commands) Fixed an error that prevented error messages caused by exceptions in commands to be logged
+  . fixed: (Playlist) Fixed a bug that caused an error when left clicking on buffer bar before a segment was buffered
+  . fixed: (MainWindow) Fixed a rare bug that could cause a hanging main window when a player was closed
+  . fixed: (Yotube) Fixed an error that prevented StreambuffRe from finding the subtitles of videos        
+  . changed: (PhantomJs) PhantomJs is now downloaded from nuget instead of the bitbucket repository
