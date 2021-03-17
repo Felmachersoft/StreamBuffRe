@@ -1,0 +1,11 @@
+0.8.1.0
+  + added: (Subtitle) Added option in Player settings to automatically load subtitles on playback (MPV and youtube only)
+  + added: (Subtitle) Added option in Download settings to merge a subtitle into an output file (Youtube only and only when converting video / using download and merge)
+  + added: (Playlist) Added item to the context menu to open the download folder while the stream is being download/recorded
+  + added: (Download settings) Added an option to automatically merge if a stream has separated audio and video when downloading them
+  . enhanced: (Favourite dialog) Added dark theme, stream preview and switching of watched status
+  . changed: (Playlist) When clicking on download on a stream with separateed audio and video a new dialog will ask if you want to merge them
+  . changed: (ScChrom resolver) The proxy settings are now also used for ScChrom
+  . changed: (ScChrom resolver) Added more info to the extended example
+  . changed: (ScChrom resolver) Added the cacheTime parameter for scripts to set a max cache time, the default cache time was reduced to one hour
+  . changed: (ScChrom resolver) Refreshing the current scripts will also clear the url and streamstatus cache
