@@ -1,0 +1,10 @@
+0.8.2.0
+  + added (ChatDownload): Added command to download the twitch chat log of a certain video or the last recorded livestream of a channel
+  + added (Playlist): Added context menu entry under download for twitch streams and videos to download the according chat log        
+  . added (MainWindow): Added option in WindowSettings to ask for confirmation before closing StreamBuffRe        
+  . enhanced (Tasks): StreamOnlineChecker can now fire when a stream goes offline        
+  . enhanced (SegmentDownloadQueue): Error messages of failed segment downloads now include the stream name
+  . enhanced (MainSettings): If an error occurs while checking for updates of a plugin a message will now be shown to the user
+  . enhanced (File_Writer): When saving a stream to a file the download will now timeout if no segments are provided two minutes after starting
+  . fixed (Livestreams): Fixed a bug in token renewal for hls streams that could prevent correct matching of segments
+  . changed (Youtube-dl): Updates are now checked and downloaded via GitHub releases instead of the webpage
