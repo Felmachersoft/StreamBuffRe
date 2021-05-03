@@ -1,0 +1,2 @@
+0.8.2.1
+  . fixed (File_Writer): Fixed a bug that could cause a timeout while saving a stream of fixed length resulting in a canceled download
