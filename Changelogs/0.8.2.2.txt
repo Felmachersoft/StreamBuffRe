@@ -1,0 +1,4 @@
+0.8.2.2
+  . enhanced (DownloadChat): Added _id, channel_id, offset, color and emotes fields to json output. The badges field is now a json array instead of a string. Offset and color can be used in custom format.
+  . fixed (Namedpipe interface): Added new exception handler to catch errors while writing
+  . fixed (MPV): Fixed a bug that prevented MPV from registering changed streams
