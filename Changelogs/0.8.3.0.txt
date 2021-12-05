@@ -1,0 +1,10 @@
+0.8.3.0
+  . enhanced (DownloadChat): Added possibility to add stream events, for now only category change, to downloaded chat log
+  . enhanced (Twitch): Replaced calls to old API, enhanced search results
+  . fixed (DownloadChat): Fixed a bug in the DownloadChat command that made downloads fail when using upper cases in the url argument
+  . fixed (Menus): Fixed a rare bug that caused menus opening on a different screen as the parent menu
+  . fixed (Qualities): Enhanced order of stream qualities and fixed bug that caused automatic selection of video only qualities for youtube shorts
+  . changed (Settings): The default quality for streams is now 1080p
+  ! changed (Dependency): Updated several dependencies, third party plugins might be broken and need new a version 
+  ! changed (Dependency): Added Newtonsoft BSON library code, extended license infos
+  ! changed (Youtube-dl): Now using Youtube-dlp (https://github.com/yt-dlp/yt-dlp) due to lag of updates of original youtube-dl
