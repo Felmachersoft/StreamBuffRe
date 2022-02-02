@@ -1,0 +1,4 @@
+0.8.3.3
+  . enhanced (ScChrom resolver): Added option in script test dialog to show debug output
+  . fixed (ScChrom resolver): Fixed a bug for urls that are case sensitive
+  . fixed (ScChrom resolver): Fixed a bug that could cause freezing of ScChrom
