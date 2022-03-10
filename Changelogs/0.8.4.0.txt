@@ -1,0 +1,4 @@
+0.8.4.0
+  . enhanced (Youtube-dl): Added possibility to add custom command line parameters to youtube-dl execution
+  . fixed (Youtube-dl): Fixed a bug causing fail of downloading video streams with latest youtube-dlp version
+  . fixed (Internet speed test): Changed url to a working 100 mb file for testing
