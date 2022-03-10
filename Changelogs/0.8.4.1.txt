@@ -1,0 +1,2 @@
+0.8.4.1
+  . fixed (Search): Fixed very rare bug in youtube search resulting in an error while searching
