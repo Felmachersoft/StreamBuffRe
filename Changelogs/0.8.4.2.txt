@@ -1,0 +1,2 @@
+0.8.4.2
+  . fixed (Twitch): Fixed very rare bug for copyright striked streams that miss a category/game
