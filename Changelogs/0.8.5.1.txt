@@ -1,0 +1,3 @@
+0.8.5.1
+  . fixed (FFMPEG): Fixed a bug that set the wrong path for FFMPEG if the path of it was set in the path environment variable
+  . fixed (PhantomJS): Fixed a bug that set the wrong path for PhantomJS if the path of it was set in the path environment variable
