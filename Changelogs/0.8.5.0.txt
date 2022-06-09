@@ -1,0 +1,5 @@
+0.8.5.0
+  + added(Self made qualities): Added ability to add self made qualities consisting of self selected audio and video tracks of a stream
+  + added(Self made qualities): Added menu item in quality selector to edit self made qualities of a stream
+  + added(Self made quality template): Added ability to create self made quality templates. They automatically recreate self made qualities for stream upon resolving. (Require full license) 
+  + added(Self made quality template): Added controls to edit self made quality templates in URL Resolver settings
