@@ -1,0 +1,3 @@
+0.8.5.2
+  . fixed (Youtube-dl): Fixed a bug that caused additional parameters for youtube-dl to fail all resolvings
+  . enhanced (Youtube-dl): Cleaned youtube-dl settings view, added links with further infos
