@@ -1,0 +1,6 @@
+0.8.5.3        
+  + added (Youtube): Added notification when trying to resolve upcoming premieres and scheduled livestreams (only full license)
+  + added (Command): Added command AddFavouriteURL to add favourites without resolving them first
+  . fixed (Chat download): Switched to new way to download twitch chat (old one no longer worked)
+  ! BEWARE (Chat download): Twitches new api does no longer mark actions (like subs or cheers), hence they can not be excluded for now
+  ! changed (Qualities): Instead of always the video height, now the smallest video dimension is used as quality name
