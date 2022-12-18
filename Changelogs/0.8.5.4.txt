@@ -1,0 +1,3 @@
+0.8.5.4        
+  . fixed (Qualities): Fixed a bug where simple quality names would be 0p due to missing video width info (seen on twitch clips)
+  . fixed (Qualities): Fixed a bug where sound only qualities could be default selection
