@@ -1,0 +1,3 @@
+0.8.5.5       
+  . fixed (Chat download): Fixed rare error occuring if the account of a chatter has been banned
+  . fixed (Chat download): Fixed rare bug causing endless download if chat has no new messages for a long time
