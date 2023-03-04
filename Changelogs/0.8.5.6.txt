@@ -1,0 +1,2 @@
+0.8.5.6
+  . fixed (Youtube): Fixed that youtube-dlp uses wrong protocol for each quality resulting in (nearly) endless resolving of youtube videos
