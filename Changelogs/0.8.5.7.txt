@@ -1,0 +1,4 @@
+0.8.5.7
+  . fixed (Youtube): Fixed a bug causing StreamBuffRe to fail resolving youtube videos on youtube-dlp version 2023.06.21
+  . fixed (ScChrom): Fixed a bug that could fail to detect an endless loop and crash StreamBuffRe
+  ! BEWARE (Youtube-dlp): Youtube-dlp has a bug in version 2023.06.21 that prevents it from resolving twitch streams, skip version 2023.06.21!
