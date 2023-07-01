@@ -1,0 +1,2 @@
+0.8.5.8
+ . fixed (Twitch chat download): Fixed a bug that caused wrong encoded characters
