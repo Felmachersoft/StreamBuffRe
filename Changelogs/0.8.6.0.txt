@@ -1,0 +1,3 @@
+0.8.6.0
+  + addded (Kick): Added support for Kick.com livestreams and VODs (requires ScChrom)
+  . fixed (HLS) Fixed a bug that caused HLS streams with prefetch segments to fail buffering
