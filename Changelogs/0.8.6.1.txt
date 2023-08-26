@@ -1,0 +1,5 @@
+0.8.6.1
+  . enhanced (HttpRenderer): Enhanced HttpRenderer reducing amount of failed to download images (for example in search results or stream previews)
+  . enhanced (DownloadSegmentQueue): Changed to new download method to raise stability of downloads
+  . fixed (DownloadSegmentQueue): Fixed a bug that could cause HLS or MPD downloads not using set proxy
+  . fixed (Twitch search): Fixed a bug that could cause failed searches for some search terms
