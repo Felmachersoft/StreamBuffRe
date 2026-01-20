@@ -1,0 +1,16 @@
+0.9.0.0
+  . initial alpha release
+
+0.9.0.1
+  . fixed: Updater checked every 10 minutes for new update instead of set interval
+
+0.9.0.2
+  . fixed: No longer will an unnecessary message inform user about no new updates on startup
+  . fixed: Made feeds retry few times to get new links if an error occured
+  . changed: If a youtube feed didn't provide any links its now handled as an error to prevent empty feeds
+
+0.9.1.0
+  + added: WebGUI: Added License settings
+  + added: WebGUI: Added update button into update settings for manual checking
+  . fixed: WebGUI: Yes/no dialogs did not did not close after selection
+  . changed: DesktopGUI: Changed WebServer settings to WebGUI and Window settings to Appearance
